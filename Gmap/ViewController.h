@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 
-@interface ViewController : UIViewController <GMSMapViewDelegate, UISearchBarDelegate>
+@interface ViewController : UIViewController <GMSMapViewDelegate, UITextFieldDelegate>
 
 @end

@@ -13,8 +13,8 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet GMSMapView *ibMapView;
 @property (weak, nonatomic) IBOutlet GMSPanoramaView *ibPanoramaView;
-@property (weak, nonatomic) IBOutlet UISearchBar *ibSearchBar;
-
+@property (weak, nonatomic) IBOutlet UITextField *ibSearchTextField;
+@property (strong, nonatomic) CLGeocoder *geocoder;
 @end
 
 @implementation ViewController
@@ -64,6 +64,8 @@
     
     
     [self.ibPanoramaView moveNearCoordinate:melbourneMarker.position];
+    
+    self.geocoder = [[CLGeocoder alloc] init];
 }
 
 #pragma mark - GMSMapViewDelegate
@@ -96,8 +98,18 @@
     self.ibMapView.hidden = YES;
 }
 
-- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
-{
+- (IBAction)keywordChanged:(id)sender {
+    if (self.ibSearchTextField.text.length) {
+        [self.geocoder cancelGeocode];
+        NSLog(@"============NEW SEARCH============");
+        [self.geocoder geocodeAddressString:self.ibSearchTextField.text
+                     completionHandler:^(NSArray *placemarks, NSError *error) {
+                         for (CLPlacemark *placemark in placemarks) {
+                             NSArray *lines = placemark.addressDictionary[@"FormattedAddressLines"];
+                             NSString *addressString = [lines componentsJoinedByString:@", "];
+                             NSLog(@"Address: %@", addressString);
+                         }
+                     }];
+    }
 }
-
 @end
