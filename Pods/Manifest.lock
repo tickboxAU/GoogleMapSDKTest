@@ -1,4 +1,6 @@
 PODS:
+  - BlocksKit (1.8.2):
+    - libffi
   - Google-API-Client (0.0.1):
     - Google-API-Client/Common
     - Google-API-Client/Networking
@@ -151,17 +153,21 @@ PODS:
     - SBJson
   - GTMHTTPFetcher (0.0.1):
     - SBJson
+  - libffi (3.0.13)
   - SBJson (3.2)
 
 DEPENDENCIES:
+  - BlocksKit
   - Google-API-Client
   - Google-Maps-iOS-SDK
 
 SPEC CHECKSUMS:
+  BlocksKit: 7396526b0816734103f6133fbb1a520c8b04e80c
   Google-API-Client: a5aea65083895ad2fa8eeca4747478215c9ac934
   Google-Maps-iOS-SDK: d1b26a21be8ba0c80a88c5f45dd5fb527ab29703
   gtm-oauth2: af6d1ff3d4b14b35d3709f7f4bf2be8b43e45e62
   GTMHTTPFetcher: b0af09f18ec87e7a5edeffcc8cb6449fdbf0e83f
+  libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
   SBJson: e60b4dc22448c2ae1e754b523a4ab53408e85c8d
 
 COCOAPODS: 0.23.0

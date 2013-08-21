@@ -7,13 +7,17 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
+
+#define GOOGLE_API_KEY @"AIzaSyAOtCJSO_YGMyQBAuhDVi6gxdo3bA1Nc3k"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [GMSServices provideAPIKey:GOOGLE_API_KEY];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
