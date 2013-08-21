@@ -10,7 +10,7 @@
 #import "ViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
-#define GOOGLE_API_KEY @"AIzaSyAOtCJSO_YGMyQBAuhDVi6gxdo3bA1Nc3k"
+#define GOOGLE_API_KEY @"AIzaSyCC-2IQeHmHAIIezz4Qufs3MnKEBG5F_jQ"
 
 @implementation AppDelegate
 

@@ -6,43 +6,59 @@
 	<dict>
 		<key>Pods-BlocksKit.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Pods-GTMHTTPFetcher.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-Google-API-Client.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Pods-Google-Maps-iOS-SDK.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-SBJson.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-gtm-oauth2.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-libffi.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -72,6 +88,21 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1EBA90DC92404EA4890563A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>427BD06DB0574D6D971F6516</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7CBC1A76C4E34B0E9301EDA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80D85DCFE0D247B4A1EEBC1F</key>
 		<dict>
 			<key>primary</key>
@@ -82,7 +113,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>894380D6B4B3468980EEFF0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9B952550CD6D4175BFD364C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A492C9A25A644470A0AFA2FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -93,6 +134,11 @@
 			<true/>
 		</dict>
 		<key>A69A67F49665470682A414C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF3C9909FB854973B81CB2F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
